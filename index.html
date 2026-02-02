@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>EVENTX — Event Infrastructure</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <h1>EVENTX</h1>
+  <p>Your All-in-One Event Infrastructure</p>
+</header>
+
+<section class="search">
+  <select id="eventType">
+    <option value="">Event Type</option>
+    <option>Wedding</option>
+    <option>Corporate</option>
+    <option>Concert</option>
+    <option>Party</option>
+  </select>
+
+  <select id="city">
+    <option value="">City</option>
+    <option>Lucknow</option>
+    <option>Delhi</option>
+  </select>
+
+  <button onclick="filterVendors()">Search</button>
+</section>
+
+<section id="vendors" class="vendors"></section>
+
+<script src="script.js"></script>
+</body>
+</html>
